@@ -29,7 +29,18 @@ public static void main(String[] args) {
  int m=0; int n=0; for (i=o;i<=100;i++){ if (i%2!=0){m=i+n;} else{n=i+n;}}
   System.out.println("奇数和="+n); System.out.println("偶数和"+m );*/
 
- Scanner input=new Scanner(System.in); int i=input.nextInt(); int a=i/10000; int b=i/1000%10;int c=i/100%10; int d=
+ /*Scanner input=new Scanner(System.in); int i=input.nextInt(); int a=i/10000; int b=i/1000%10;int c=i/100%10; int d=
          i/10; if (a==a&&b==d){System.out.println(i+"为回文数"); }
-         else {System.out.println(i+"不是回文数");}
+         else {System.out.println(i+"不是回文数");}*/
+    //判断年份
+  /*  Scanner input= new Scanner(System.in); int i=input.nextInt(); if (i%4==0&&i%100!=0){System.out.println(i+"是闰年");}
+    else if (i%4==0&&i%100==0
+    ){System.out.println(i+"世纪闰年");} else {System.out.println(i+"是平年");}*/
+
+
+       // int i=1;int m=0; while(i<=200){if (i%3==0){m+=i; i++;} else {i++;}} System.out.println("三得倍数的和是"+m);
+
+                Scanner input=new Scanner(System.in); int i= input.nextInt(); if (i%9==00){System.out.println(i+"是九的倍数");}
+        else{System.out.println(i+"不是九的倍数");}
 } }
+
