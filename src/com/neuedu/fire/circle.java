@@ -1,9 +1,10 @@
 package com.neuedu.fire;
 
 public class circle {
-    int redues;
+
+   private int redues;
     public void  setRedues(int redues1){
-    if (redues1<0){System.out.println("半径不能为负数，你这是在为难我胖虎！！！");}
+       if (redues1<0){System.out.println("半径不能为负数，你这是在为难我胖虎！！！");}
     else {redues=redues1;}}
     public  int  getRedues(){return redues;}
     public  double zc (){ return Math.PI*redues*2;}
