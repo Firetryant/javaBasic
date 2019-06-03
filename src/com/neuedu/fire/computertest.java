@@ -11,14 +11,15 @@ public class computertest {
         Scanner input =new Scanner(System.in);
        int a= input.nextInt();
        int b=input.nextInt();
-       computer.getA();
+      computer.setA(5);
+      computer.setB(6);
 
 
-   computer.jian(45,589);
-   computer.chen(2,2);
-   computer.chu(5,4);
-   computer.add(45847,62454);
-  // System.out.println();
+  /* computer.jian();
+   computer.chen();
+   computer.chu();
+   computer.add();*/
+System.out.println(computer);
 
 
     }
