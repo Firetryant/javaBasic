@@ -2,7 +2,7 @@ package com.neuedu.fire;
 
 public class Pointtest {
     public static void main(String[] args) {
-        Point p1 =new Point();
+        Point p1 =new Point(1,1);
         p1.movePoint(5,7);
         System.out.println(p1);
         Point p2=new Point(0,0);
