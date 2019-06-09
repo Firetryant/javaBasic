@@ -45,7 +45,7 @@ public class Person {
     }
 public void  computeSalary(){System.out.println("GONZI");};
     //public abstract void computeSalary（）；
-    //抽象方法的应用 关键词  abstract  抽象方法必须写在抽象类中  只有方法的生成没有方法体
+    //抽象方法的应用 关键词  abstract 抽象类中不一定有抽象方法但 抽象方法必须写在抽象类中  只有方法的生成没有方法体
 
    /* @Override
     public String toString() {
