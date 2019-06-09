@@ -29,7 +29,7 @@ width=width1;     height=height1;
     public  void  area(int width1,int height1){
      width=width1;   height=height1;     int  reslut =width*height;
       System.out.println(reslut);}
-    public  void  pint_res(){
+    public  void  print_res(){
         System.out.println();
     }
 

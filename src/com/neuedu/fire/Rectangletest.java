@@ -1,10 +1,10 @@
 package com.neuedu.fire;
 
-public class work0527 {
+public class Rectangletest {
     public static  void  main(String[]args){
         Rectangle rectangle =new Rectangle();
         rectangle.zh();
-        rectangle.area(4,5);
+        rectangle.area(8,59);
         System.out.println(rectangle);
 
 
