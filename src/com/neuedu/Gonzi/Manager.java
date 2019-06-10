@@ -15,4 +15,8 @@ public class Manager extends Person{
  /*  public void  computeSalary(){
       System.out.println("经理工资为："+salary);
    }  手动写也可以抽象方法强制重写*/
+ public Manager(int salary,String name,String sex,String date,int args,int height, int width,String ZHIYE){
+     super(name,sex,date,args,height,width,ZHIYE);
+     this.salary=salary;
+ }
 }

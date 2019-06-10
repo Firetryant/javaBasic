@@ -1,7 +1,8 @@
 package com.neuedu.Gonzi;
 //继承的练习   extends  简化代码 将多个重复的属性写在一个共有的类中作为父类可用来继承
 public class SalesMan extends Person{
-  private   int basic; private int ticheng;
+  private   int basic;
+  private int ticheng;
     public  void  setBasic(int basic){
         this.basic=basic;
       System.out.println("底薪"+basic);
@@ -14,6 +15,11 @@ public class SalesMan extends Person{
     public  int getTicheng(){return ticheng;}
     public void  computeSalary(){System.out.println(  "销售人员工资为:"+ (basic +ticheng));
 
+    }
+    public  SalesMan(int basic,int ticheng,String name,String sex,String date,int height,int width,int args,String ZHIYE){
+      super(name,sex,date,height,width,args,ZHIYE);
+      this.basic=basic;
+      this.ticheng=ticheng;
     }
 
 }

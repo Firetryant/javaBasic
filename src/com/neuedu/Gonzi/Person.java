@@ -8,6 +8,16 @@ public abstract class   Person {
    private int width;
    private int arge;
    private  String ZHIYE;
+   //写入构造方法  达到用一个构造方法给属性赋值的目的
+    public  Person(String name,String sex,String date, int height, int width, int arge, String ZHIYE){
+        this. name=name;
+        this.sex=sex;
+        this.date=date;
+        this.height=height;
+        this.width=width;
+        this.arge=arge;
+        this.ZHIYE=ZHIYE;
+    }
 
     public String getZHIYE() {
         return ZHIYE;
